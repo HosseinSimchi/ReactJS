@@ -18,6 +18,7 @@ root.render(
           <Route path="contact" element={<Contact />} />
           <Route path="blog/:id" element={<Blog />} />
         </Route>
+        <Route path="*" element={<App />} />
       </Routes>
       {/* <App /> */}
     </BrowserRouter>
